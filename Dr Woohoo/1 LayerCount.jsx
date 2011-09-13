@@ -1,1 +1,3 @@
-﻿/****  * Returns the number of layers in the current Adobe Illustrator document. * * Distributed under the MIT license. See http://www.opensource.org/licenses/mit-license.php for details. *  * Copyright (c) 2011, Dr. Woohoo! * http://DrWoohoo.com *  * All rights reserved.  ***/var targetDocument = app.activeDocument;var layerCount = targetDocument.layers.length; alert(layerCount);
+var targetDocument = app.activeDocument;
+var layerCount = targetDocument.layers.length; 
+alert(layerCount);
